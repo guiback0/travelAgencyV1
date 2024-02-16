@@ -2,7 +2,6 @@
     font-family: 'Nunito', sans-serif;
     margin: 0; padding: 0;
     box-sizing: border-box;
-    text-transform: capitalize;
     outline: none; border: none;
     text-decoration: none;
     transition: all .2s linear;
@@ -131,7 +130,11 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container.active{
+<<<<<<< HEAD
     top: 0;
+=======
+    top: 0%; 
+>>>>>>> e577cb645fe48d5d874a46288c2f73999acf4b2a
 }
 
 .login-form-container form{
@@ -184,9 +187,14 @@ width: 50rem;
 }
 
 .login-form-container form p a{
+<<<<<<< HEAD
     padding: 0.5rem;
     font-size: 1.5rem;
     color: #ffa500;
+=======
+    color: #ffa500;
+    padding: 1rem;
+>>>>>>> e577cb645fe48d5d874a46288c2f73999acf4b2a
 }
 
 .login-form-container form p a:hover{
