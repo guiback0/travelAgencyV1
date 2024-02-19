@@ -44,10 +44,10 @@ videoBtn.forEach(btn =>{
 var swiper = new Swiper(".review-slider", {
     spaceBetween: 20,
     loop:true,
-    //autoplay: {
-        //delay: 2500,
-        //disableOnInteraction: false,
-    //},
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         640: {
             slidesPerView: 1,
