@@ -490,6 +490,10 @@ header .search-bar-container label:hover{
     font-size: 1.5rem;
 }
 
+.swiper-wrapper{
+    height: 30%;
+}
+
 .contact .row{
     display: flex;
     flex-wrap: wrap;
